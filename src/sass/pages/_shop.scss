@@ -1,0 +1,148 @@
+main {  
+  
+  .shop {
+
+    
+    .shop-banner {
+      height: 41rem;
+      width: 100%;
+      position: relative;
+      
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-bottom: .5rem solid rgba($color: $color-main, $alpha: 1.0);
+      }
+      
+      .shop-textarea {
+        position: absolute;
+        bottom: 0;
+        height: 25%;
+        width: 100%;
+        margin-bottom: 1.125rem;
+        background-color: rgba($color: $color-background, $alpha: 0.5);
+
+          
+        p {
+          padding: 1.25rem;
+          margin: 0;
+          color: $color-secondary;
+
+        }
+      }
+    }
+
+    .product {
+      display: flex;
+      justify-content: center;
+      background-color: $color-secondarybg;
+    
+      .product-container {
+        list-style: none;
+        flex-direction: row;
+        background-color: $color-background;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    
+        li {
+          position: relative;
+          
+          display: flex;
+          justify-content: center;
+
+          overflow: hidden;
+
+
+          .product-pair {
+            display: flex;
+            
+            flex-direction: row; 
+            justify-content: center; 
+
+            &:nth-child(even) {
+              flex-direction: column-reverse; 
+            }
+    
+            a {
+              position: relative;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              box-shadow: .125rem .25rem .375rem rgba($color: #000000, $alpha: 1.0);
+              border-radius: 20;
+              margin: .625rem .625rem .625rem .625rem;
+              padding: .625rem;
+              @include linear-gradient($color-secondary, 0.3, 0.2, 0.1, 0.08, 0.00);
+              
+              &:hover {
+                @include linear-gradient($color-secondary, 0.5, 0.4, 0.2, 0.16, 0.02);
+              
+                .fav {
+                  transform: scale(1);
+                }
+              
+                .add {
+                  transform: scale(1);
+                }
+              }
+            
+              .product-image {
+                position: relative;
+                width: 100%;
+                height: 25rem;
+                padding: 0 0 .625rem 0;
+                border-bottom: .0625rem solid $color-main;
+                border-radius: 20 20 0 0;
+              }
+              
+              .add {
+
+                position: absolute;
+                transform: scale(0);
+                transition: transform 0.2s ease-in-out;                
+                width: 3.125rem;
+                top: 1.5625rem;
+                right: 1.5625rem;
+                z-index: 1;
+
+                &:hover {
+                  
+                }
+
+              }
+
+              .fav {
+                transform: scale(0);
+                transition: transform 0.2s ease-in-out;
+                top: 5rem;
+              }
+            
+              h2 {
+                color: $color-main;
+                font-size: $font-h3;
+                padding: .625rem 0 0 0;
+                
+              }
+  
+              h3 {
+                color: $color-main;
+                font-size: $font-h1;
+              }
+              
+              p {
+                position: relative;
+                margin: .3125rem 1.25rem;
+              }
+            }
+          }
+        }
+      }
+    } 
+  }
+}
