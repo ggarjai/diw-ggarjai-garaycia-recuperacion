@@ -1,7 +1,6 @@
 .concerts-list {
   background-color: $color-secondarybg;
 
-
   .concerts {
       width: 80%;
       display: flex;
@@ -37,6 +36,7 @@
             .concerts-title {
               padding: .625rem 2.5rem 0rem 1.875rem;
               .title {
+                color: $color-secondarybg;
                 text-align: end;
                 padding-right: 0rem;
               }
@@ -44,6 +44,7 @@
               .concerts-text {
                 padding-right: 2.5rem;
                 .text {
+                  color: $color-secondarybg;
                   padding: 0rem 0rem 0rem 6.25rem;
                 }
                 .concerts-button {
@@ -60,6 +61,7 @@
             .concerts-title {
               padding: .625rem 1.875rem 0rem 1.875rem;
               .title {
+                color: $color-secondarybg;
                 text-align: start;
                 padding-left: 1.25rem;
               }
@@ -67,6 +69,7 @@
             .concerts-text {
               padding-left: 2.5rem;
               .text {
+                color: $color-secondarybg;
                 padding: 0rem 6.25rem 0rem .625rem;
               }
               .concerts-button {
@@ -92,8 +95,7 @@
           display: flex;
           flex-direction: column;
           max-width: 100%;
-          background-color: rgba($color: $color-main, $alpha: 0.4);
-          
+          background-color: rgba($color: $color-main, $alpha: 0.6);
           z-index: 1;
 
         .concerts-title {
@@ -103,7 +105,6 @@
           align-items: start;
 
           }
-  
   
         .concerts-text {
           display: flex;
@@ -118,6 +119,8 @@
             display: flex;
             justify-content: flex-end;
             .button-small {
+              border: 0;
+              background-color: rgba($color: $color-main, $alpha: 1.0);
               box-shadow: .25rem .25rem .5rem rgba(0, 0, 0, 0);
             }
           }

@@ -147,42 +147,23 @@ main {
     
         .profile {
             height: 100%;
-            width: 100%;
     
             .profile-img {
                 display: none;
-                flex-direction: column;
-
-                img {
-                    margin: 1.875rem;
-                    box-shadow: .25rem .25rem .5rem rgba(0, 0, 0, 0.5);
-                    border: .25rem solid $color-main;
-                }
                 
             }
 
             .profile-img-mobile {
                 display: flex;
-                position: relative;
-                justify-content: center;
-                align-items: center;
-                overflow: hidden;
-                img {
-                    margin: 1.875rem;
-                    box-shadow: .25rem .25rem .5rem rgba(0, 0, 0, 0.5);
-                    border: .25rem solid $color-main;
-                }
             }
     
             form {
-                padding: 1.875rem;
                 
                 h1 {
                     display: flex;
                     justify-content: center;
                 }
                 
-
                 .form-fields {
                     display: grid;
                     grid-template-columns: repeat(1, 1fr);
@@ -190,62 +171,6 @@ main {
                     grid-row-gap: 1.25rem;
                     padding: 0;
 
-                    li {
-                        margin-bottom: 0;
-                        
-                        label {
-                            display: block;
-                            margin-bottom: .3125rem;
-                            font-weight: bold;
-                            font-family: $font-family;
-                            font-weight: $font-regular;
-                            color: $color-main;
-                            font-size: $font-s;
-                        }
-                    
-                        input {
-                            font-size: $font-p;
-                            box-shadow: inset 0 .25rem .25rem rgba(0, 0, 0, 0.50);
-                        }
-    
-                        input[type="text"],
-                        input[type="email"],
-                        select {
-                            width: 20rem;
-                            height: 2.8125rem;
-                            
-                            border-radius: .25rem;
-                            padding: .625rem;
-                            border: .0625rem solid $color-main;
-                            background-color: $color-secondarybg;
-                            color: $color-secondary;
-                            &:focus {
-                            outline: none;
-                            border-color: $color-secondary;
-                            
-                            }
-                        }
-                    
-                        input[type="password"] {
-                            width: 12.5rem;
-                            height: 2.8125rem;
-                            border-radius: .25rem;
-                            padding: .625rem;
-                            border: .0625rem solid $color-main;
-                            background-color: $color-secondarybg;
-                            &:focus {
-                                outline: none;
-                                border-color: $color-secondary;
-                                }
-                        }
-                    
-    
-                    }
-
-                    #register-pwd + input[type=password] {
-                            width: 20rem;
-
-                    }
                 }
 
 
