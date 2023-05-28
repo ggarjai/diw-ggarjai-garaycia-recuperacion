@@ -1,0 +1,24 @@
+//SASS base
+@import './src/assets/sass/base/reset';
+@import './src/assets/sass/base/variables';
+@import './src/assets/sass/base/typography';
+
+//SASS utilities
+@import './src/assets/sass/utilities/mixins';
+
+//SASS buttons
+@import './src/assets/sass/components/buttons.scss';
+
+//SASS layout
+@import './src/assets/sass/layout/footer';
+@import './src/assets/sass/layout/header';
+@import './src/assets/sass/layout/navigation';
+
+//SASS pages
+@import './src/assets/sass/pages/home';
+@import './src/assets/sass/pages/concerts';
+@import './src/assets/sass/pages/shop';
+@import './src/assets/sass/pages/profile';
+@import './src/assets/sass/pages/lyrics';
+
+
