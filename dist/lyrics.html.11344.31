@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.034b6250.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+  <header>
+    <a href="#" class="logo"><img src="/guitar-logo.e20ef71a.png"></a>
+    <nav>
+
+
+        <ul class="menu">
+          <li><a href="/index.html">INICIO</a></li>
+          <li><a href="/news.html">NOTICIAS</a></li>
+          <li><a href="/shop.html">TIENDA</a></li>
+          <li><a href="/concerts.html">CONCIERTOS</a></li>
+          <li class="active"><a href="/lyrics.html">LETRAS</a></li>
+        </ul>
+      
+        <div class="dropdown">
+          <a href="#"><img class="dropbtn" src="/menu-burger.46343ed4.svg" alt="burger-menu"></a>
+          <div class="dropdown-content">
+            <a href="/login.html">ENTRAR</a>
+            <a href="/index.html">INICIO</a>
+            <a href="/news.html">NOTICIAS</a>
+            <a href="/shop.html">TIENDA</a>
+            <a href="/concerts.html">CONCIERTOS</a>
+            <a href="/lyrics.html">LETRAS</a>
+          </div>
+        </div>
+    </nav>
+    <div class="buttons">
+      <a class="register-btn" href="/register.html">Registro</a>
+      <a class="register-btn register-btn-color" href="/login.html">Entrar</a>
+    </div>
+  </header>
+
+    <main class="letras">
+      <article class="lyrics">
+        <section class="lyrics-panel">
+          <ul class="lyrics-links">
+            <li><a href="#">Aguamar</a></li>
+            <li><a href="#">Amor felino</a></li>
+            <li><a href="#">Corazones de espuma</a></li>
+            <li><a href="#">Dama de cristal</a></li>
+            <li><a href="#">Dejando a un lado tus miedos</a></li>
+            <li><a href="#">Doble dirección</a></li>
+            <li><a href="#">Emperatriz</a></li>
+            <li><a href="#">En tierra de caracolas</a></li>
+            <li><a href="#">Guardando mentiras</a></li>
+            <li><a href="#">Juanito paseante</a></li>
+            <li><a href="#">Las palabras que ya no decimos</a></li>
+            <li><a href="#">Men in black</a></li>
+            <li><a href="#">Manuel</a></li>
+            <li><a href="#">Nada de nada</a></li>
+          </ul>
+
+        </section>
+        <section class="lyrics-text">
+
+          
+        <h2>Aguamar</h2>
+        <div class="dropdown-songs">
+          <a href="#"><h3>Elegir canción ▼</h3></a>
+          <div class="dropdown-content-songs">
+            <a href="#">Aguamar</a>
+            <a href="#">Amor felino</a>
+            <a href="#">Corazones de espuma</a>
+            <a href="#">Dama de cristal</a>
+            <a href="#">Dejando a un lado tus miedos</a>
+            <a href="#">Doble dirección</a>
+            <a href="#">Emperatriz</a>
+            <a href="#">En tierra de caracolas</a>
+            <a href="#">Guardando mentiras</a>
+            <a href="#">Juanito paseante</a>
+            <a href="#">Las palabras que ya no decimos</a>
+            <a href="#">Men in black</a>
+            <a href="#">Manuel</a>
+            <a href="#">Nada de nada</a>
+          </div>
+        </div>
+        <p>Siento tus pasos que se acercan al mar,
+          tus manos al viento salpicadas de sal,
+          kilómetros de agua quisiera nadar,
+          sentarme en el banco que te sirve de cama y soñar,</p>
+        <p>ardo despacio remendando mi paz,
+          mis manos calladas te quieren tocar,
+          te sigo diciendo el tiempo lo dirá,
+          estar a tu lado en la barra de un nocturno bar.</p>
+        <p>Te abrazaré
+          estoy muy lejos y me siento viejo,
+          entérate
+          que mi pellejo siente celos de tu cielo,
+          por primera vez.</p>
+        <p>Los besos que faltan nos hacen volar
+          respiro el deseo. Estas al llegar,
+          retiro la silla, te vas a sentar,
+          los dos frente a frente en la mesa, vamos a cenar.</p>
+        <p>Se encienden las velas, tu pides por mi
+          los postres son versos que te hacen reir,
+          iremos al cine. Despues a bailar
+          aquella balada que tanto te hizo temblar.</p>
+        <p>Te abrazaré
+          estoy muy lejos y me siento viejo
+          entérate
+          que mi pellejo siente celos de tu cielo
+          por primera vez.</p>
+        <p>Te abrazaré
+          estoy muy lejos y me siento viejo
+          entérate
+          que mi pellejo siente celos de tu cielo
+          por primera vez.</p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <div class="footer-desktop">
+        <div class="footer-column-1">
+          <a href="#">© Copyright 2023</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+      <div class="footer-desktop">
+        <div class="footer-column-2">
+          <a href="#">Devoluciones</a>
+          <a href="#">Garantías</a>
+          <a href="#">Entradas</a>
+          <a href="#">Tienda</a>
+        </div>
+      </div>
+      <div class="footer-desktop">
+        <div class="footer-column-3">
+          <a href="#">Inicio</a>
+          <a href="#">Noticias</a>
+          <a href="#">Conciertos</a>
+          <a href="#">Letras</a>
+          <a href="#">Perfil</a>
+        </div>
+      </div>
+      
+      <div class="footer-mobile">
+        <div class="footer-list">
+          <a href="#">© Copyright 2023</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Cookies</a>
+          <a href="#">Devoluciones</a>
+          <a href="#">Garantías</a>
+          <a href="#">Entradas</a>
+          <a href="#">Tienda</a>
+          <a href="#">Inicio</a>
+          <a href="#">Noticias</a>
+          <a href="#">Conciertos</a>
+          <a href="#">Letras</a>
+          <a href="#">Perfil</a>
+        </div>
+      </div>
+    </footer>
+
+<script src="/lyrics.c77cd691.js"></script></body>
+</html>

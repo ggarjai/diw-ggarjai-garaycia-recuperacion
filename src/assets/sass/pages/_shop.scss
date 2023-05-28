@@ -21,15 +21,20 @@ main {
       .shop-textarea {
         position: absolute;
         bottom: 0;
-        height: 25%;
+        height: 38%;
         width: 100%;
-        margin-bottom: 1.125rem;
+        margin-bottom: 2.8125rem;
         background-color: rgba($color: $color-background, $alpha: 0.5);
           
+        h1 {
+          padding: 1.25rem 0px .625rem 1.25rem;
+        }
+
         p {
           padding: 1.25rem;
           margin: 0;
           color: $color-secondary;
+          font-size: $font-h4;
 
         }
       }
@@ -159,6 +164,25 @@ main {
 @include mobile {
   main {  
     .shop {
+
+      .shop-banner {
+        .shop-textarea {
+          height: 52%;         
+          h1 {
+            font-size: $font-h2;
+            padding: 1.25rem 0px .625rem 1.25rem;
+          }
+  
+          p {
+            padding: 1.25rem;
+            margin: 0;
+            color: $color-secondary;
+            font-size: $font-h4;
+  
+          }
+        }
+      }
+
       .product {
         .product-container {
           li {

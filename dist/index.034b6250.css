@@ -1198,18 +1198,23 @@ main .shop .shop-banner img {
 }
 
 main .shop .shop-banner .shop-textarea {
-  height: 25%;
+  height: 38%;
   width: 100%;
   background-color: #22252680;
-  margin-bottom: 1.125rem;
+  margin-bottom: 2.8125rem;
   position: absolute;
   bottom: 0;
+}
+
+main .shop .shop-banner .shop-textarea h1 {
+  padding: 1.25rem 0 .625rem 1.25rem;
 }
 
 main .shop .shop-banner .shop-textarea p {
   color: #fff;
   margin: 0;
   padding: 1.25rem;
+  font-size: 1.25rem;
 }
 
 main .shop .product {
@@ -1310,6 +1315,22 @@ main .shop .product .product-container li .product-pair a p {
 }
 
 @media (width <= 700px) {
+  main .shop .shop-banner .shop-textarea {
+    height: 52%;
+  }
+
+  main .shop .shop-banner .shop-textarea h1 {
+    padding: 1.25rem 0 .625rem 1.25rem;
+    font-size: 2rem;
+  }
+
+  main .shop .shop-banner .shop-textarea p {
+    color: #fff;
+    margin: 0;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+  }
+
   main .shop .product .product-container li .product-pair {
     grid-template-columns: repeat(1, 1fr);
     display: grid;
